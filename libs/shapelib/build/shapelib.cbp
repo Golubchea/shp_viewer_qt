@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="shapelib"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/code/shp_viewer_qt/libs/shapelib/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dbfadd">
+				<Option output="C:/code/shp_viewer_qt/libs/shapelib/build/dbfadd.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/code/shp_viewer_qt/libs/shapelib/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/include"/>
+					<Add directory="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/include-fixed"/>
+					<Add directory="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 dbfadd"/>
+					<CompileFile command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dbfadd/fast">
+				<Option output="C:/code/shp_viewer_qt/libs/shapelib/build/dbfadd.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/code/shp_viewer_qt/libs/shapelib/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/include"/>
+					<Add directory="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/include-fixed"/>
+					<Add directory="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 dbfadd/fast"/>
+					<CompileFile command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shp">
+				<Option output="C:/code/shp_viewer_qt/libs/shapelib/build/dll/libshp.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/code/shp_viewer_qt/libs/shapelib/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSHAPELIB_DLLEXPORT"/>
+					<Add directory="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/include"/>
+					<Add directory="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/include-fixed"/>
+					<Add directory="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 shp"/>
+					<CompileFile command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shp/fast">
+				<Option output="C:/code/shp_viewer_qt/libs/shapelib/build/dll/libshp.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/code/shp_viewer_qt/libs/shapelib/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSHAPELIB_DLLEXPORT"/>
+					<Add directory="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/include"/>
+					<Add directory="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/include-fixed"/>
+					<Add directory="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 shp/fast"/>
+					<CompileFile command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shpcreate">
+				<Option output="C:/code/shp_viewer_qt/libs/shapelib/build/shpcreate.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/code/shp_viewer_qt/libs/shapelib/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/include"/>
+					<Add directory="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/include-fixed"/>
+					<Add directory="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 shpcreate"/>
+					<CompileFile command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shpcreate/fast">
+				<Option output="C:/code/shp_viewer_qt/libs/shapelib/build/shpcreate.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/code/shp_viewer_qt/libs/shapelib/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/include"/>
+					<Add directory="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/include-fixed"/>
+					<Add directory="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 shpcreate/fast"/>
+					<CompileFile command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dbfdump">
+				<Option output="C:/code/shp_viewer_qt/libs/shapelib/build/dbfdump.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/code/shp_viewer_qt/libs/shapelib/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/include"/>
+					<Add directory="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/include-fixed"/>
+					<Add directory="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 dbfdump"/>
+					<CompileFile command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dbfdump/fast">
+				<Option output="C:/code/shp_viewer_qt/libs/shapelib/build/dbfdump.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/code/shp_viewer_qt/libs/shapelib/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/include"/>
+					<Add directory="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/include-fixed"/>
+					<Add directory="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 dbfdump/fast"/>
+					<CompileFile command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shprewind">
+				<Option output="C:/code/shp_viewer_qt/libs/shapelib/build/shprewind.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/code/shp_viewer_qt/libs/shapelib/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/include"/>
+					<Add directory="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/include-fixed"/>
+					<Add directory="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 shprewind"/>
+					<CompileFile command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shprewind/fast">
+				<Option output="C:/code/shp_viewer_qt/libs/shapelib/build/shprewind.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/code/shp_viewer_qt/libs/shapelib/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/include"/>
+					<Add directory="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/include-fixed"/>
+					<Add directory="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 shprewind/fast"/>
+					<CompileFile command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shpadd">
+				<Option output="C:/code/shp_viewer_qt/libs/shapelib/build/shpadd.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/code/shp_viewer_qt/libs/shapelib/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/include"/>
+					<Add directory="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/include-fixed"/>
+					<Add directory="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 shpadd"/>
+					<CompileFile command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shpadd/fast">
+				<Option output="C:/code/shp_viewer_qt/libs/shapelib/build/shpadd.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/code/shp_viewer_qt/libs/shapelib/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/include"/>
+					<Add directory="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/include-fixed"/>
+					<Add directory="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 shpadd/fast"/>
+					<CompileFile command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shpdump">
+				<Option output="C:/code/shp_viewer_qt/libs/shapelib/build/shpdump.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/code/shp_viewer_qt/libs/shapelib/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/include"/>
+					<Add directory="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/include-fixed"/>
+					<Add directory="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 shpdump"/>
+					<CompileFile command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shpdump/fast">
+				<Option output="C:/code/shp_viewer_qt/libs/shapelib/build/shpdump.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/code/shp_viewer_qt/libs/shapelib/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/include"/>
+					<Add directory="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/include-fixed"/>
+					<Add directory="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 shpdump/fast"/>
+					<CompileFile command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dbfcreate">
+				<Option output="C:/code/shp_viewer_qt/libs/shapelib/build/dbfcreate.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/code/shp_viewer_qt/libs/shapelib/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/include"/>
+					<Add directory="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/include-fixed"/>
+					<Add directory="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 dbfcreate"/>
+					<CompileFile command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dbfcreate/fast">
+				<Option output="C:/code/shp_viewer_qt/libs/shapelib/build/dbfcreate.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/code/shp_viewer_qt/libs/shapelib/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/include"/>
+					<Add directory="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/include-fixed"/>
+					<Add directory="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 dbfcreate/fast"/>
+					<CompileFile command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shptreedump">
+				<Option output="C:/code/shp_viewer_qt/libs/shapelib/build/shptreedump.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/code/shp_viewer_qt/libs/shapelib/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/include"/>
+					<Add directory="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/include-fixed"/>
+					<Add directory="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 shptreedump"/>
+					<CompileFile command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shptreedump/fast">
+				<Option output="C:/code/shp_viewer_qt/libs/shapelib/build/shptreedump.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/code/shp_viewer_qt/libs/shapelib/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/include"/>
+					<Add directory="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/include-fixed"/>
+					<Add directory="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/../lib/gcc/i686-w64-mingw32/5.3.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 shptreedump/fast"/>
+					<CompileFile command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/code/shp_viewer_qt/libs/shapelib/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/code/shp_viewer_qt/libs/shapelib/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="C:/code/shp_viewer_qt/libs/shapelib/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="C:/code/shp_viewer_qt/libs/shapelib/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="C:/code/shp_viewer_qt/libs/shapelib/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="C:/code/shp_viewer_qt/libs/shapelib/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Qt5.10.1/Tools/mingw530_32/bin/mingw32-make.exe -f &quot;C:/code/shp_viewer_qt/libs/shapelib/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/code/shp_viewer_qt/libs/shapelib/dbfadd.c">
+			<Option target="dbfadd"/>
+		</Unit>
+		<Unit filename="C:/code/shp_viewer_qt/libs/shapelib/dbfcreate.c">
+			<Option target="dbfcreate"/>
+		</Unit>
+		<Unit filename="C:/code/shp_viewer_qt/libs/shapelib/dbfdump.c">
+			<Option target="dbfdump"/>
+		</Unit>
+		<Unit filename="C:/code/shp_viewer_qt/libs/shapelib/dbfopen.c">
+			<Option target="shp"/>
+		</Unit>
+		<Unit filename="C:/code/shp_viewer_qt/libs/shapelib/safileio.c">
+			<Option target="shp"/>
+		</Unit>
+		<Unit filename="C:/code/shp_viewer_qt/libs/shapelib/sbnsearch.c">
+			<Option target="shp"/>
+		</Unit>
+		<Unit filename="C:/code/shp_viewer_qt/libs/shapelib/shpadd.c">
+			<Option target="shpadd"/>
+		</Unit>
+		<Unit filename="C:/code/shp_viewer_qt/libs/shapelib/shpcreate.c">
+			<Option target="shpcreate"/>
+		</Unit>
+		<Unit filename="C:/code/shp_viewer_qt/libs/shapelib/shpdump.c">
+			<Option target="shpdump"/>
+		</Unit>
+		<Unit filename="C:/code/shp_viewer_qt/libs/shapelib/shpopen.c">
+			<Option target="shp"/>
+		</Unit>
+		<Unit filename="C:/code/shp_viewer_qt/libs/shapelib/shprewind.c">
+			<Option target="shprewind"/>
+		</Unit>
+		<Unit filename="C:/code/shp_viewer_qt/libs/shapelib/shptree.c">
+			<Option target="shp"/>
+		</Unit>
+		<Unit filename="C:/code/shp_viewer_qt/libs/shapelib/shptreedump.c">
+			<Option target="shptreedump"/>
+		</Unit>
+		<Unit filename="C:/code/shp_viewer_qt/libs/shapelib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,15 @@
+C:/code/shp_viewer_qt/libs/shapelib/build/CMakeFiles/dbfadd.dir
+C:/code/shp_viewer_qt/libs/shapelib/build/CMakeFiles/shp.dir
+C:/code/shp_viewer_qt/libs/shapelib/build/CMakeFiles/shpcreate.dir
+C:/code/shp_viewer_qt/libs/shapelib/build/CMakeFiles/dbfdump.dir
+C:/code/shp_viewer_qt/libs/shapelib/build/CMakeFiles/shprewind.dir
+C:/code/shp_viewer_qt/libs/shapelib/build/CMakeFiles/shpadd.dir
+C:/code/shp_viewer_qt/libs/shapelib/build/CMakeFiles/shpdump.dir
+C:/code/shp_viewer_qt/libs/shapelib/build/CMakeFiles/dbfcreate.dir
+C:/code/shp_viewer_qt/libs/shapelib/build/CMakeFiles/shptreedump.dir
+C:/code/shp_viewer_qt/libs/shapelib/build/CMakeFiles/edit_cache.dir
+C:/code/shp_viewer_qt/libs/shapelib/build/CMakeFiles/rebuild_cache.dir
+C:/code/shp_viewer_qt/libs/shapelib/build/CMakeFiles/list_install_components.dir
+C:/code/shp_viewer_qt/libs/shapelib/build/CMakeFiles/install/local.dir
+C:/code/shp_viewer_qt/libs/shapelib/build/CMakeFiles/install.dir
+C:/code/shp_viewer_qt/libs/shapelib/build/CMakeFiles/install/strip.dir

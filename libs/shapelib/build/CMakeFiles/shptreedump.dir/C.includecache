@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/code/shp_viewer_qt/libs/shapelib/shapefil.h
+stdio.h
+-
+dbmalloc.h
+-
+cpl_conv.h
+C:/code/shp_viewer_qt/libs/shapelib/cpl_conv.h
+
+C:/code/shp_viewer_qt/libs/shapelib/shptreedump.c
+shapefil.h
+C:/code/shp_viewer_qt/libs/shapelib/shapefil.h
+assert.h
+-
+stdlib.h
+-
+math.h
+-
+string.h
+-
+
